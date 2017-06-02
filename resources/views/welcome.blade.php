@@ -89,6 +89,12 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
+
+                <div>
+                    <p>
+                        ENV_USER: {{ env('ENV_USER', 'default') }}
+                    </p>
+                </div>
             </div>
         </div>
     </body>
